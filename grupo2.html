@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feria Tecnica Escolar</title>
+</head>
+<body>
+
+    <header>
+        <h1>Feria Tecnica Escolar</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#informacion">Información</a></li>
+                <li><a href="#inscripcion">Inscribete</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio">
+            <h2>Bienvenidos a la Feria Tecnológica</h2>
+            <p>Un lugar de innovación, creatividad y proyectos tecnológicos creados por nuestros estudiantes.</p>
+        </section>
+
+        <!-- Sección de proyectos -->
+        <section id="proyectos">
+            <h2>Mejores Proyectos</h2>
+            
+            <article class="tarjeta-proyectos">
+                <h3>Proyecto 1: Domótica Escolar</h3>
+                <p>Sistema de control automatizado para el ahorro de energía en el aula.</p>
+            </article>
+
+            <article class="tarjeta-proyectos">
+                <h3>Proyecto 2: App de Reciclaje</h3>
+                <p>Aplicación móvil para fomentar la correcta clasificación de residuos sólidos.</p>
+            </article>
+
+            <article class="tarjeta-proyectos">
+                <h3>Proyecto 3: Robot seguidor de línea</h3>
+                <p>Prototipo robótico autónomo diseñado para recorridos de precisión.</p>
+            </article>
+        </section>
+
+        <section id="informacion">
+            <h2>Información del Evento</h2>
+            <ul>
+                <li><strong>Fecha:</strong> 4 de Noviembre de 2026</li>
+                <li><strong>Hora:</strong> 9:00 AM - 2:00 PM</li>
+                <li><strong>Lugar:</strong> Salones de sistemas </li>
+            </ul>
+        </section>
+
+        <section id="inscripcion">
+            <h2>Formulario de Inscripción</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="tipo-asistente">Perfil:</label>
+                    <select id="tipo-asistente" name="tipo-asistente">
+                        <option value="estudiante">Estudiante</option>
+                        <option value="docente">Docente</option>
+                        <option value="visitante">Visitante externo</option>
+                    </select>
+                </div>
+                <button type="submit">QUIERO INSCRIBIRME</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
