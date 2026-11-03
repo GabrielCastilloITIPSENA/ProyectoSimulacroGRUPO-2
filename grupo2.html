@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feria Tecnica Escolar</title>
+    <link rel="stylesheet" href="grupo2.css">
 </head>
 <body>
 
@@ -15,6 +16,8 @@
                 <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#informacion">Información</a></li>
                 <li><a href="#inscripcion">Inscribete</a></li>
+
+                <li><button id="btn-modo" class="btn-toggle"><Modo Nocturno></button></li> 
             </ul>
         </nav>
     </header>
@@ -29,6 +32,10 @@
         <!-- Sección de proyectos -->
         <section id="proyectos">
             <h2>Mejores Proyectos</h2>
+
+            <div class="buscador-contenedor">
+                <input type="text" id="buscador-proyectos" placeholder="buscar proyecto por titulo...>">
+            </div>
             
             <article class="tarjeta-proyectos">
                 <h3>Proyecto 1: Domótica Escolar</h3>
@@ -48,6 +55,7 @@
 
         <section id="informacion">
             <h2>Información del Evento</h2>
+            <button id="btn-toggle-info" class="btn-info">ocultar detalles del evento</button>
             <ul>
                 <li><strong>Fecha:</strong> 4 de Noviembre de 2026</li>
                 <li><strong>Hora:</strong> 9:00 AM - 2:00 PM</li>
@@ -78,5 +86,7 @@
             </form>
         </section>
     </main>
+    
+    <script src="script.js"></script>
 </body>
 </html>
